@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    /* border: 2px solid lawngreen; */
+    text-align: center;
+    margin: 60px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h1 {
+    color: navy;
+    text-shadow: 1px 1px ;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px #888888;
+}
+
+button {
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px #888888;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#wordDefinition, #partOfSpeech, #synonymsWords, #antonymsWords, #errorDisplay {
+    margin-top: 20px;
+    font-size: 18px; 
+    color: blue;
+    text-align:center; 
+}
