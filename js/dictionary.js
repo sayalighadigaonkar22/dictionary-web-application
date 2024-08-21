@@ -38,7 +38,7 @@ async function getDictionaryData() {
             const data = await response.json();
 
             displayDictionaryData(data);
-            
+
         } catch (error) {
             displayError(error.message);
         }
